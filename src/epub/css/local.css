@@ -8,11 +8,11 @@
 }
 
 #chapter-17 table{
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin: 1em auto;
+}
+
+#chapter-17 table td + td{
+	padding-left: 1em;
 }
 
 [epub|type~="z3998:letter"] header{
